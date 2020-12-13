@@ -51,7 +51,7 @@ public class Zadanie_1 {
             if (e > 0) suma_dodatnich += e;
             else if (e < 0) suma_ujemnych += e;
 
-
+            // e
             if (e > 0) zlicz++;
             else if (e < 0) zlicz = 0;
 
@@ -79,11 +79,11 @@ public class Zadanie_1 {
 
         System.out.println("Tablica zrodlowa:");
         for (int i = 0; i < n; i++) {
-            System.out.println(tab[i]);
+            System.out.print("  " + tab[i]);
         }
-        System.out.println("Tablica g:");
+        System.out.println("\nTablica g:");
         for (int i = 0; i < n; i++) {
-            System.out.println(g[i]);
+            System.out.print("  " + g[i]);
         }
     }
 }
